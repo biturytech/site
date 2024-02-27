@@ -3,20 +3,21 @@ body {
     padding: 0;
     font-family: 'Roboto', sans-serif;
     background: linear-gradient(to left, #8A2BE2, #FF69B4);
-    
+
 }
 
 .container {
-    width: 80%;;
+    width: 80%;
+    ;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+
 }
 
-.logo{
-    margin:0;
+.logo {
+    margin: 0;
     max-width: 120px;
 }
 
@@ -34,7 +35,7 @@ nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-   
+
 }
 
 nav ul li {
@@ -47,19 +48,24 @@ nav ul li a {
     color: #fff;
 }
 
-nav ul li a:hover{
+nav ul li a:hover {
     color: black;
 }
 
 .main-section {
     padding: 50px 0;
     text-align: center;
+    color: white;
 }
 
 .main-section h2 {
     font-size: 36px;
-    margin-bottom: 20px;
+    margin-bottom: 1px;
     color: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: inline-block;
+
+
 }
 
 .product {
@@ -68,8 +74,8 @@ nav ul li a:hover{
     padding: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     margin-bottom: 40px;
-   
-  
+
+
 }
 
 .product h3 {
@@ -95,11 +101,13 @@ nav ul li a:hover{
     position: center;
 
 }
-.imagem{
+
+.imagem {
     mix-blend-mode: multiply;
 }
-.about-content p{
-   text-align: justify;
+
+.about-content p {
+    text-align: justify;
 }
 
 .product button:hover {
@@ -109,13 +117,20 @@ nav ul li a:hover{
 .Video {
     position: relative;
     width: 100%;
-    max-width: 640px; /* Defina a largura máxima do vídeo */
-    margin: 30px auto; /* Centralize o vídeo na página */
-    border: 2px solid #FF69B4; /* Borda rosa */
-    border-radius: 10px; /* Borda arredondada */
-    overflow: hidden; /* Oculta qualquer conteúdo que ultrapasse a borda */
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Sombra */
+    max-width: 640px;
+    /* Defina a largura máxima do vídeo */
+    margin: 30px auto;
+    /* Centralize o vídeo na página */
+    border: 2px solid #FF69B4;
+    /* Borda rosa */
+    border-radius: 10px;
+    /* Borda arredondada */
+    overflow: hidden;
+    /* Oculta qualquer conteúdo que ultrapasse a borda */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    /* Sombra */
 }
+
 .Video video {
     width: 100%;
     height: auto;
@@ -144,7 +159,8 @@ nav ul li a:hover{
 .product button:hover {
     background-color: #FF69B4;
 }
-.positon_botão{
+
+.positon_botão {
     display: block;
     margin: 20px auto;
     padding: 10px 20px;
@@ -155,9 +171,10 @@ nav ul li a:hover{
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
+
 .social {
-    background-color: red;
-    margin: 10%;
+    max-width: 200px;
+    padding: 5%
 }
 
 /* Adicione este código ao seu arquivo styles.css */
@@ -175,8 +192,9 @@ footer {
 footer p {
     margin: 0;
 }
-.Produtos{
-    
+
+.Produtos {
+
     color: black;
 
 }
