@@ -4,10 +4,12 @@ body {
     font-family: 'Roboto', sans-serif;
     background: linear-gradient(to left, #8A2BE2, #FF69B4);
     background-color: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
 }
 
 .container {
     width: 80%;
+    ;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -16,15 +18,12 @@ body {
 
 header {
     color: #fff;
-    padding: 20px 0;
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-header h1 {
+.logo {
     margin: 0;
-}
-.logo{
-    margin:0;
+    max-width: 120px;
 }
 
 nav ul {
@@ -41,6 +40,10 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: #fff;
+}
+
+nav ul li a:hover {
+    color: black;
 }
 
 .main-section {
@@ -97,5 +100,5 @@ nav ul li a {
     height: auto;
     display: block;
     box-shadow: 0px 50px 100px -20px rgba(50, 50, 93, 0.25), 0px 30px 60px -30px rgba(0, 0, 0, 0.3), inset 0px -2px 6px rgba(10, 37, 64, 0.35);
-    
+
 }

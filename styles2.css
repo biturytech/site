@@ -3,15 +3,21 @@ body {
     padding: 0;
     font-family: 'Roboto', sans-serif;
     background: linear-gradient(to left, #8A2BE2, #FF69B4);
+    
 }
 
 .container {
-    width: 80%;
+    width: 80%;;
     margin: 0 auto;
-    padding: 20px;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     
+}
+
+.logo{
+    margin:0;
+    max-width: 120px;
 }
 
 header {
@@ -39,6 +45,10 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: #fff;
+}
+
+nav ul li a:hover{
+    color: black;
 }
 
 .main-section {
@@ -84,6 +94,12 @@ nav ul li a {
     transition: background-color 0.3s ease;
     position: center;
 
+}
+.imagem{
+    mix-blend-mode: multiply;
+}
+.about-content p{
+   text-align: justify;
 }
 
 .product button:hover {
@@ -138,6 +154,10 @@ nav ul li a {
     color: #fff;
     cursor: pointer;
     transition: background-color 0.3s ease;
+}
+.social {
+    background-color: red;
+    margin: 10%;
 }
 
 /* Adicione este código ao seu arquivo styles.css */
