@@ -4,11 +4,11 @@ body {
     font-family: 'Roboto', sans-serif;
     background: linear-gradient(to left, #8A2BE2, #FF69B4);
 
+
 }
 
 .container {
     width: 80%;
-    ;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -80,13 +80,14 @@ nav ul li a:hover {
 
 .product h3 {
     font-size: 24px;
-    color: black;
+    color: white;
     margin-bottom: 10px;
+
 }
 
 .product p {
     font-size: 18px;
-    color: black;
+    color: white;
     margin-bottom: 20px;
 }
 
@@ -108,6 +109,9 @@ nav ul li a:hover {
 
 .about-content p {
     text-align: justify;
+    font-size: 1.5em;
+
+    
 }
 
 .product button:hover {
